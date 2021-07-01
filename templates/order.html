@@ -4,8 +4,7 @@
     </head>
     <body>
         <h1>My Games List!</h1>
-        <a href="/order">Orders in other order!</a>
-        {% for order in orders %}  
+        {% for order in orders_1 %}  
         <div>
           <p>
             {{ order.name }} {{ order.game }} <b>{{ order.date }}</b> {{ order.quantity }}
